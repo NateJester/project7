@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <errno.h>
-#include <wfs.c>
+#include "wfs.h"
 
 static int my_getattr(const char *path, struct stat *stbuf) {
     // Implementation of getattr function to retrieve file attributes
